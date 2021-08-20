@@ -1,0 +1,42 @@
+{
+  "error": {
+    "general": {
+      "bad_request": "Bir şeyler ters gitti.",
+      "missing_parameter": "URL parametresi eksik: {{name}}"
+    },
+    "db": {
+      "duplicate_field": "Değer zaten mevcut: {{value}}. Lütfen farklı bir değer kullanınız!",
+      "invalid_id" : "Id geçersiz",
+      "cast_value": "Geçersiz değer ({{path}}: {{value}})"
+    },
+    "notFound": {
+      "asset": "Varlık bulunamadı.",
+      "map": "Harita bulunamadı.",
+      "chokePoint": "ChokePoint bulunamadı."
+    },
+    "required": {
+      "asset": "Varlık gereklidir."
+    },
+    "minlength": {
+
+    },
+    "maxlength": {
+
+    },
+    "duplicate": {
+
+    },
+    "delete": {
+      "asset_map_exists": "Lütfen belirtilen Varlığın içerisinde Harita olmadığına emin olunuz.",
+      "map_chokePoint_exists": "Lütfen belirtilen Haritanın içerisinde ChokePoint olmadığına emin olunuz."
+    },
+    "missing_parameter": {
+      "image": "Resim dosyası bulunamadı.",
+      "chokePoint_set_map": "Pozisyonlama değerleri mevcut değil."
+    },
+    "conflict": {
+      "map_position_not_fit": "Belirtilen pozisyon harita dışında kalıyor.",
+      "map_image_tile": "Harita katmanlama işleminde bir sorun oluştu."
+    }
+  }
+}

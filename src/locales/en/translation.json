@@ -1,0 +1,42 @@
+{
+  "error": {
+    "general": {
+      "bad_request": "Something wrong.",
+      "missing_parameter": "Missing URL parameter: {{name}}"
+    },
+    "db": {
+      "duplicate_field": "Duplicate field value: {{value}}. Please use another value!",
+      "invalid_id" : "Id invalid",
+      "cast_value": "Invalid value ({{path}}: {{value}})"
+    },
+    "notFound": {
+      "asset": "Asset not found.",
+      "map": "Map not found.",
+      "chokePoint": "ChokePoint not found."
+    },
+    "required": {
+      "asset": "Asset is required."
+    },
+    "minlength": {
+
+    },
+    "maxlength": {
+
+    },
+    "duplicate": {
+
+    },
+    "delete": {
+      "asset_map_exists": "Please make sure that there is any Map in specified Asset.",
+      "map_chokePoint_exists": "Please make sure that there is any ChokePoint in specified Map."
+    },
+    "missing_parameter": {
+      "image": "Image file not found.",
+      "chokePoint_set_map": "Positioning values not found."
+    },
+    "unprocessable_entity": {
+      "map_position_not_fit": "Specified position is at outside of map.",
+      "map_image_tile": "Problem at map tile process."
+    }
+  }
+}
